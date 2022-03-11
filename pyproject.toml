@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "agify"
+version = "0.1.0"
+description = ""
+authors = ["Dash Winterson <dash.winterson@forumbrands.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipdb = "^0.13.9"
+ipython = "^8.0.1"
+requests-mock = "^1.9.3"
+coverage = "^6.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+agify = "agify.cli:run"
