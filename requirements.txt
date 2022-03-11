@@ -1,0 +1,5 @@
+Flask==2.0.3
+Flask-RESTful==0.3.9
+requests==2.25.1
+requests-mock==1.9.3
+pysqlite==2.8.3
