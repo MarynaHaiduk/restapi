@@ -73,6 +73,3 @@ def delete_person(name):
     finally:
         conn.close()
 
-
-if __name__ == '__main__':
-    print(update_person(('qqq', 5, 555)))
